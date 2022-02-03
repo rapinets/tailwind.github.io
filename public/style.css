@@ -683,11 +683,6 @@ body {
   }
 }
 
-.pull-out-menu {
-  left: 0px;
-  right: unset;
-}
-
 .burger-toggle {
   position: absolute;
   top: 0px;
@@ -1252,11 +1247,21 @@ main {
 
 @media (min-width: 768px) {
   .content-block {
+    width: 75%;
+  }
+
+  .content-block {
     flex: 1 1 auto;
   }
 
   .content-block {
     padding-right: 0.75rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .content-block {
+    width: 66.666667%;
   }
 }
 
@@ -1432,10 +1437,6 @@ footer {
 
 .flex {
   display: flex;
-}
-
-.hidden {
-  display: none;
 }
 
 .h-full {

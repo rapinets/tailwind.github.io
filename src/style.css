@@ -193,7 +193,7 @@
         @apply border-2 border-black rounded-md;
     }
     .content-block {
-        @apply md:flex-auto md:pr-3;
+        @apply md:flex-auto md:pr-3 md:w-3/4 lg:w-4/6;
     }
     .img-container {
         @apply flex flex-col md:flex-row;
